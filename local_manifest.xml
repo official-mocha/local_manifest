@@ -4,15 +4,6 @@
 <!-- Trees --> 
 <project path="device/xiaomi/tulip" name="official-mocha/device_xiaomi_tulip.git" remote="github" revision="twelve" /> 
 <project path="vendor/xiaomi/tulip" name="official-mocha/vendor_xiaomi_tulip.git" remote="github" revision="twelve" /> 
-<project path="kernel/xiaomi/sdm660" name="Evolution-X-Devices/kernel_xiaomi_sdm660.git" remote="github" revision="hmp" /> 
-<project path="device/xiaomi/extras" name="ArrowOS-Devices/android_device_xiaomi_extras.git" remote="github" revision="arrow-12.0" />
-
-<!-- Hals -->
-<remove-project name="android_hardware_qcom_media" />
-<remove-project name="android_hardware_qcom_audio" />
-<remove-project name="android_hardware_qcom_display" />
-<project path="hardware/qcom-caf/msm8998/display" name="PixelExperience/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
-<project path="hardware/qcom-caf/msm8998/media" name="PixelExperience/hardware_qcom-caf_msm8998_media" remote="github" revision="twelve" />
-<project path="hardware/qcom-caf/msm8998/audio" name="PixelExperience/hardware_qcom-caf_msm8998_audio" remote="github" revision="twelve" />
+<project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4.git" remote="github" revision="mystic-caf" />
 
 </manifest>
