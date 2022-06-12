@@ -2,17 +2,12 @@
 <manifest>
 
       <remote name="official-mocha"
-          fetch="https://github.com/official-mocha" />        
-      
-      <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />         
+          fetch="https://github.com/official-mocha" />             
       
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="official-mocha" revision="komodo" />
       
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="official-mocha" revision="twelve" />
       
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="official-mocha" revision="twelve" />
-      
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />      
       
 </manifest>
